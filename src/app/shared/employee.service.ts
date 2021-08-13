@@ -10,7 +10,7 @@ import { Employee } from './employee.model';
 export class EmployeeService {
   selectedEmployee: Employee;
   employees: Employee[];
-  readonly baseURL = 'http://fossunited.backend.devtron.xyz:32471/employees';
+  readonly baseURL = 'http://nodejs.devtron.xyz:32471/employees';
 
   constructor(private http: HttpClient) { }
 
