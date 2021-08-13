@@ -1,7 +1,7 @@
 # Compile and Build Angular Codebase
 
 # Base Image
-FROM node:latest as build
+FROM node:12.18.1 as build
 
 # Set the Working directory
 WORKDIR /usr/local/app
